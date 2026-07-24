@@ -1,16 +1,38 @@
-## Hi there 👋
+# Hi, I'm João Vitor 👋
 
-<!--
-**joaovitorsantos397/joaovitorsantos397** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Computer Engineering Student at the University of Campinas (Unicamp)
 
-Here are some ideas to get you started:
+## About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm passionate about technology and software development.
+
+Currently interested in:
+
+- 📱 Mobile Development
+- 🤖 Artificial Intelligence
+- 🌐 Internet of Things (IoT)
+- 💻 Software Engineering
+
+I'm currently building personal software projects while expanding my knowledge in modern software engineering.
+
+## Current Projects
+
+🚧 AI Diet Manager *(In Development)*
+
+A nutrition management application that integrates Artificial Intelligence to help users plan and monitor their diet.
+
+## Technologies
+
+- Python
+- C++
+- Git & GitHub
+- Linux
+
+## Goals
+
+- Learn iOS Development
+- Build impactful applications
+- Improve Software Architecture skills
+- Contribute to innovative technology projects
+
+📫 Feel free to connect with me on LinkedIn!
