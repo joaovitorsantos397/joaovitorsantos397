@@ -4,15 +4,15 @@
 
 ## About Me
 
-I'm a Computer Engineering student at the University of Campinas (Unicamp) passionate about building software that solves real-world problems. I'm particularly interested in Artificial Intelligence, Mobile Development, Internet of Things (IoT), and Software Engineering.
+I'm a Computer Engineering student at Unicamp passionate about building software that solves real-world problems. I'm particularly interested in Artificial Intelligence, Mobile Development, Internet of Things (IoT), and Software Engineering.
 
-Currently, I'm developing personal software projects while continuously improving my programming and software engineering skills.
+Currently developing personal software projects end-to-end — from product thinking and architecture decisions to implementation — while continuously improving my engineering skills.
 
 ## Current Projects
 
-🚧 **AI Diet Manager** *(In Development)*
+🥗 **[AI Diet Manager](https://github.com/joaovitorsantos397/AI-Diet-Manager)**
 
-An AI-powered nutrition management application designed to help users plan, monitor, and optimize their diet.
+A conversational AI nutrition coach, not just a calorie tracker: five distinct coach personalities, meal logging via text, photo, or audio (with Gemini vision and transcription), and evolution tracking (calories, protein, weight, adherence streaks). The system prompt is deliberately engineered around a common failure mode in AI diet apps — hallucinated or double-counted totals — by grounding every response in numbers computed by the app itself, not reconstructed from conversation memory.
 
 More projects coming soon!
 
@@ -21,21 +21,24 @@ More projects coming soon!
 ### Languages
 - Python
 - C++
+- TypeScript / JavaScript
 
-### Tools
+### Stack
+- React, Vite, Node.js/Express
 - Git & GitHub
 - Linux
 
 ### Currently Learning
+- iOS Development with Swift
 - Mobile Development
-- Artificial Intelligence Applications
-- Software Architecture
+- Software Architecture at scale
 
 ## Goals
 
-- Build high-quality software
+- Build high-quality, well-documented software
 - Learn iOS Development with Swift
-- Develop AI-powered applications
+- Keep applying AI in practical, user-facing products
 - Contribute to innovative technology projects
 
 📫 Feel free to connect with me on LinkedIn!
+
