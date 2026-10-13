@@ -1,53 +1,52 @@
 # Hi, I'm João Vitor 👋
 
-🎓 Computer Engineering Student at the University of Campinas (Unicamp)
+🎓 Computer Engineering student at the University of Campinas (Unicamp)
 
 ## About Me
 
-I'm a Computer Engineering student at Unicamp passionate about building software that solves real-world problems. I'm particularly interested in Artificial Intelligence, Mobile Development, Internet of Things (IoT), and Software Engineering.
+I'm a Computer Engineering student at Unicamp interested in backend, data, IoT and applied AI. I like building software that solves real problems, and I care about how a system behaves when it is actually running, not only in theory.
 
-Currently developing personal software projects end-to-end — from product thinking and architecture decisions to implementation — while also doing undergraduate research in IoT architectures for scientific instrumentation.
+I build my own projects end to end, from product decisions to implementation, and I do undergraduate research (PIBIC) in a physics lab at Unicamp.
+
+I'm looking for internships in backend and data engineering.
 
 ## Current Projects
 
 🥗 **[AI Diet Manager](https://github.com/joaovitorsantos397/AI-Diet-Manager)**
 
-A conversational AI nutrition coach, not just a calorie tracker: five distinct coach personalities, meal logging via text, photo, or audio (with Gemini vision and transcription), and evolution tracking (calories, protein, weight, adherence streaks). The system prompt is deliberately engineered around a common failure mode in AI diet apps — hallucinated or double-counted totals — by grounding every response in numbers computed by the app itself, not reconstructed from conversation memory.
+A conversational AI nutrition coach, not just a calorie tracker: five coach personalities, meal logging by text, photo or audio (Gemini vision and transcription), and progress tracking (calories, protein, weight, adherence streaks). The prompt is designed around a common failure in AI diet apps, hallucinated or double-counted totals, by grounding every answer in numbers computed by the app itself instead of reconstructing them from the conversation.
 
 🍛 **[Bandejão Tracker](https://github.com/joaovitorsantos397/Bandejao-Tracker)**
 
-Fetches Unicamp's university restaurant (RU) daily menu — which has no public API — and serves it as clean JSON. Built after discovering the real menu lives in an internal system embedded as an iframe, not the page meant for humans to read. Integrates with AI Diet Manager so the coach can ground a bandejão meal estimate in the actual dishes served that day instead of guessing generically.
+Fetches Unicamp's university restaurant daily menu, which has no public API, and serves it as clean JSON. I built it after finding that the real menu lives in an internal system embedded as an iframe, not in the page meant for people to read. Next step: feed the menu into AI Diet Manager so the coach can estimate a meal from the dishes actually served that day.
 
 ## Research
 
-🔬 **Undergraduate Research (Iniciação Científica)** — IoT Orchestration for Scientific Instrumentation
+🔬 **Undergraduate Research (PIBIC) at LaRMNuQ, IFGW/Unicamp**
 
-Some of the seven laboratory peripherals already have individual control tools (e.g. LabVIEW, Visual Basic), but no unified interface exists to orchestrate all of them together — and those legacy tools are hard to maintain and poorly suited to modern networked architectures. The plan: a microservices architecture with a central Core API (users, logs) and per-device Instrument Adapters behind a hardware abstraction layer, so adding a new instrument means writing one adapter, not touching the core. A Python backend (pyVISA, pySerial) exposes a real-time web interface — a REST API for direct commands, an MQTT pub/sub broker for continuous monitoring — built on FastAPI, with a hybrid PostgreSQL + InfluxDB store for config data and high-frequency sensor time series, secured with JWT and SSH/RSA.
+LaRMNuQ is the Nuclear Magnetic and Quadrupolar Resonance Laboratory. The project is a centralized Python interface to control and monitor the instruments of an NMR system, with local and remote access. Several instruments already have their own control tools, but nothing unifies them.
 
-Currently in the early stages: peripheral connections, driver installation, and communication validation with the control terminal — the necessary groundwork before this architecture gets built.
+So far I have established direct communication with a cryogenic temperature controller, a helium level monitor and a magnet controller over USB serial, and I wrote a prototype logger (pySerial) that reads temperature and level and saves them to CSV with timestamps. Next, I'm integrating the oscilloscope over the network with VISA/pyVISA and moving toward an API with independent modules for each instrument.
 
 ## Technologies
 
 ### Languages
 - Python
-- C++
 - TypeScript / JavaScript
 
 ### Stack
-- React, Vite, Node.js/Express
-- Git & GitHub
-- Linux
+- React, Vite, Node.js / Express
+- pySerial (instrument communication over serial)
+- Git and GitHub
 
 ### Currently Learning
-- iOS Development with Swift
-- Mobile Development
-- Software Architecture at scale
+- Data structures and algorithms (coursework)
+- pyVISA and API design for the lab project
 
 ## Goals
 
-- Build high-quality, well-documented software
-- Learn iOS Development with Swift
+- Build backend and data systems that hold up in production
 - Keep applying AI in practical, user-facing products
-- Contribute to innovative technology projects
+- Do an internship in backend or data engineering
 
-📫 Feel free to connect with me on LinkedIn!
+📫 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/joão-vitor-santos397).
