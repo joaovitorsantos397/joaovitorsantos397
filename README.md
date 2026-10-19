@@ -8,13 +8,13 @@ I'm a Computer Engineering student at Unicamp interested in backend, data, IoT a
 
 I build my own projects end to end, from product decisions to implementation, and I do undergraduate research (PIBIC) in a physics lab at Unicamp.
 
-I'm looking for internships in backend and data engineering.
+I'm looking for a summer internship (December 2026 to February 2027) in backend and applied AI.
 
 ## Current Projects
 
 🥗 **[AI Diet Manager](https://github.com/joaovitorsantos397/AI-Diet-Manager)**
 
-A conversational AI nutrition coach, not just a calorie tracker: five coach personalities, meal logging by text, photo or audio (Gemini vision and transcription), and progress tracking (calories, protein, weight, adherence streaks). The prompt is designed around a common failure in AI diet apps, hallucinated or double-counted totals, by grounding every answer in numbers computed by the app itself instead of reconstructing them from the conversation.
+A conversational AI nutrition coach, not just a calorie tracker: five coach personalities, meal logging by text, and progress tracking (calories, protein, weight, adherence streaks). The model triggers typed function calls (log or remove a meal), declared with a schema on the server, instead of writing numbers as free text, so the app computes the totals. The project has 24 unit tests (Vitest) and CI on GitHub Actions.
 
 🍛 **[Bandejão Tracker](https://github.com/joaovitorsantos397/Bandejao-Tracker)**
 
@@ -35,7 +35,8 @@ So far I have established direct communication with a cryogenic temperature cont
 - TypeScript / JavaScript
 
 ### Stack
-- React, Vite, Node.js / Express
+- React, Vite, Node.js / Express (REST APIs)
+- Vitest, GitHub Actions
 - pySerial (instrument communication over serial)
 - Git and GitHub
 
@@ -47,6 +48,6 @@ So far I have established direct communication with a cryogenic temperature cont
 
 - Build backend and data systems that hold up in production
 - Keep applying AI in practical, user-facing products
-- Do an internship in backend or data engineering
+- Do a summer internship in backend or applied AI
 
 📫 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/joaovitorsantos397).
