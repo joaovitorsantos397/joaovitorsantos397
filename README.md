@@ -49,4 +49,4 @@ So far I have established direct communication with a cryogenic temperature cont
 - Keep applying AI in practical, user-facing products
 - Do an internship in backend or data engineering
 
-📫 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/joão-vitor-santos397).
+📫 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/joaovitorsantos397).
