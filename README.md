@@ -14,7 +14,7 @@ I'm looking for a summer internship (December 2026 to February 2027) in backend 
 
 🥗 **[AI Diet Manager](https://github.com/joaovitorsantos397/AI-Diet-Manager)**
 
-A conversational AI nutrition coach, not just a calorie tracker: five coach personalities, meal logging by text, and progress tracking (calories, protein, weight, adherence streaks). The model triggers typed function calls (log or remove a meal), declared with a schema on the server, instead of writing numbers as free text, so the app computes the totals. The project has 24 unit tests (Vitest) and CI on GitHub Actions.
+A conversational AI nutrition coach, not just a calorie tracker: five coach personalities, meal logging by text, and progress tracking (calories, protein, weight, adherence streaks). The model triggers typed function calls (log or remove a meal), declared with a schema on the server, instead of writing numbers as free text, so the app computes the totals. The project has 48 unit tests (Vitest), CI on GitHub Actions, and a SQLite layer (two related tables, transactions, REST API) that the interface does not use yet.
 
 🍛 **[Bandejão Tracker](https://github.com/joaovitorsantos397/Bandejao-Tracker)**
 
@@ -36,13 +36,22 @@ So far I have established direct communication with a cryogenic temperature cont
 
 ### Stack
 - React, Vite, Node.js / Express (REST APIs)
-- Vitest, GitHub Actions
+- Vitest, GitHub Actions, SQLite (node:sqlite)
 - pySerial (instrument communication over serial)
 - Git and GitHub
 
 ### Currently Learning
 - Data structures and algorithms (coursework)
+- SQL and relational data modeling
 - pyVISA and API design for the lab project
+
+## Goals
+
+- Build backend and data systems that hold up in production
+- Keep applying AI in practical, user-facing products
+- Do a summer internship in backend or applied AI
+
+📫 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/joaovitorsantos397).
 
 ## Goals
 
